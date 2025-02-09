@@ -14,26 +14,23 @@ Frontend
 HTML – Structure of the web application
 CSS – Styling and layout
 JavaScript – Interactive features and dynamic UI
-Bootstrap/Tailwind CSS (Optional) – Responsive design
+
 Backend
 Node.js + Express.js – Handles API requests
 MongoDB (Local Database) – Stores study sessions and tasks
 
-
 Installation Guide
+for frontend
 cd mini_project
 
-if using MongoDB Shell:
+Start the Backend
+npm init -y
+npm install express mongoose cors body-parser dotenv nodemon
+npx nodemon server.js
+
 For mongo shell
 mongosh
 Then, create the database manually:
-
-
 use study-planner
 show collection
-
 db.studysession.find().pretty()
-
-
-3️⃣ Start the Backend
-npx nodemon server.js
