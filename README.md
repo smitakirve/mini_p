@@ -10,27 +10,27 @@ The Student Study Planner is a web-based tool that helps students plan study ses
 ✅ MongoDB Storage – Saves study sessions in a local database.
 
  Technologies Used
-Frontend
+Frontend=
 HTML – Structure of the web application
 CSS – Styling and layout
 JavaScript – Interactive features and dynamic UI
 
-Backend
-Node.js + Express.js – Handles API requests
-MongoDB (Local Database) – Stores study sessions and tasks
+Backend=
+Node.js + Express.js – Handles API requests,
+MongoDB (Local Database) – Stores study sessions and tasks,
 
 Installation Guide
-for frontend
+for frontend=
 cd mini_project
 
-Start the Backend
-npm init -y
-npm install express mongoose cors body-parser dotenv nodemon
+Start the Backend=
+npm init -y,
+npm install express mongoose cors body-parser dotenv nodemon,
 npx nodemon server.js
 
-For mongo shell
-mongosh
+For mongo shell=
+mongosh,
 Then, create the database manually:
-use study-planner
-show collection
+use study-planner,
+show collection,
 db.studysession.find().pretty()
